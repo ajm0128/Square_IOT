@@ -120,7 +120,7 @@ public class Fragment2 extends Fragment {
 
 
                         try {
-                            Thread.sleep(100000);
+                            Thread.sleep(5000);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
@@ -187,8 +187,8 @@ public class Fragment2 extends Fragment {
         builder.setContentTitle("Square")
                 .setContentText(message_contents)
                 .setTicker(message_type)
-                .setSmallIcon(R.mipmap.ic_launcher)
-                .setLargeIcon(BitmapFactory.decodeResource(res, R.mipmap.ic_launcher))
+                .setSmallIcon(R.drawable.splash)
+                .setLargeIcon(BitmapFactory.decodeResource(res, R.drawable.splash))
                 .setContentIntent(contentIntent)
                 .setAutoCancel(true)
                 .setWhen(System.currentTimeMillis())
